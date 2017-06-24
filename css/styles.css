@@ -82,7 +82,9 @@ div#home-banner{
 
 @media screen and (max-width: 767px) {
 div#home-banner {
+    background-image: url("../img/tribemetaimg.jpg");
     background-attachment: initial;
+    background-position: center center;
     }
 }
 
