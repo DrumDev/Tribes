@@ -1,50 +1,9 @@
-body{
-    font-family:sans-serif;
-    background-color:#222222;
-    color:white;
-}
+body{font-family:sans-serif;background-color:#222222;color:white;}
+.margin-top{margin-top:100px;}
+a, a:hover {color:#d2c808;}
+.end-of-page{margin: 40px 0;clear: both;}
 
-.margin-top{
-    margin-top:100px;
-}
-
-.contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
-}
-
-.contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
-}
-
-.contact-info li.phone a {
-  background-image: url('../img/phone-icon.png');
-}
-
-.contact-info li.mail a {
-  background-image: url('../img/email-icon.png');
-}
-
-.social-icon {
-  width: 45px;
-  height: 45px;
-  margin: 0 5px;
-}
-
-
-.end-of-page{
-    margin: 40px 0;
-    clear: both;
-}
-
-
+/*Home Page*/
 
 div#home-banner-overlay{
     position: absolute;
@@ -56,7 +15,6 @@ div#home-banner-overlay{
     opacity:0.5;
     background-attachment: fixed;
 }
-
 
 div#home-banner{
     background-image: url("../img/tribe1.jpg");
@@ -71,12 +29,8 @@ div#home-banner{
     left:0;
     border-bottom:2px solid rgba(0,0,0,0.8);
     -webkit-box-shadow: inset 0px -45px 70px 5px rgba(0,0,0,0.82);
--moz-box-shadow: inset 0px -45px 70px 5px rgba(0,0,0,0.82);
-box-shadow: inset 0px -45px 70px 5px rgba(0,0,0,0.82);
-}
-
-.news{
-    padding-top:520px;
+    -moz-box-shadow: inset 0px -45px 70px 5px rgba(0,0,0,0.82);
+    box-shadow: inset 0px -45px 70px 5px rgba(0,0,0,0.82);
 }
 
 #home-banner-content{
@@ -109,24 +63,15 @@ box-shadow: inset 0px -45px 70px 5px rgba(0,0,0,0.82);
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-.contact-space{
-    min-height:400px;
-}
 
-.footer-contact{
-    clear:both;
-}
 
-.home-info h2{
-    min-height:66px;
-}
+.home-info h2{min-height:66px;}
+.home-info p{min-height:80px;}
+.news{padding-top:520px;}
 
-.home-info p{
-    min-height:80px;
-}
+/*About Page*/
 
 #about2{
-    
     background-image:url(../img/tribe2.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -151,9 +96,11 @@ box-shadow: inset 0px -45px 70px 5px rgba(0,0,0,0.82);
 }
 
 #about4{
+    /*
     background-image:url(../img/tribe4.jpg);
     background-repeat: no-repeat;
     background-size:cover;
+    */
     width:100%;
     min-height: 400px;
     display:block;
@@ -162,12 +109,29 @@ box-shadow: inset 0px -45px 70px 5px rgba(0,0,0,0.82);
     border-radius:10px;
 }
 
-.about-section{
-    padding-top:40px;
-    padding-bottom:40px;
+.about-section{padding-top:40px;padding-bottom:40px;}
+.about-section h1{padding-top:20px;padding-bottom:20px;}
+
+
+/*Contact Page*/
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
 }
 
-.about-section h1{
-    padding-top:20px;
-    padding-bottom:20px;
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
 }
+
+.contact-info li.phone a {background-image: url('../img/phone-icon.png');}
+.contact-info li.mail a {background-image: url('../img/email-icon.png');}
+.contact-space{min-height:400px;}
+.footer-contact{clear:both;}
