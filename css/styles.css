@@ -77,8 +77,13 @@ div#home-banner{
     #home-banner-content p{
         font-size:25px;
     }
-    
 }
+
+
+@media screen and (max-width: 767px) {
+div#home-banner {
+    background-attachment: initial;
+    }
 
 /*About Page*/
 
