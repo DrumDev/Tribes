@@ -20,9 +20,9 @@ div#home-banner-overlay{
 
 div#home-banner{
     background-image: url("../img/tribe1.jpg");
-    background-size:cover!important;
+    background-size:cover;
     background-repeat: no-repeat;
-    background-attachment: fixed!important;
+    background-attachment: fixed;
     background-position: center 20%;
     height:580px;
     width:100%;
@@ -84,6 +84,7 @@ div#home-banner{
 div#home-banner {
     background-attachment: initial;
     }
+}
 
 /*About Page*/
 
