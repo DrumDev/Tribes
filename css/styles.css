@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
 body{font-family:sans-serif;background-color:#222222;color:white;}
 .margin-top{margin-top:100px;}
 a, a:hover {color:#d2c808;}
@@ -44,26 +46,41 @@ div#home-banner{
     width:100%;
     display:block;
     text-align: center;
+    padding:0 15px;
+    overflow:hidden;
 }
 
 #home-banner-content h1{
     padding-top:80px;
-    font-size:60px;
+    font-size:56px;
     color: white;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    transform: translateY(100px);
+    opacity:0;
+    transition-duration:1s;
+    transition-delay:1s;
+    font-weight:bold;
+    font-family: 'Cabin', sans-serif;
 }
 
 #home-banner-content p{
     padding-top:30px;
-    font-size:40px;
+    font-size:38px;
+    font-weight:bold;
     color: #d2c808;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
     position:relative;
     max-width:80%;
     text-align: center;
     margin:0 auto;
     font-family: 'Yanone Kaffeesatz', sans-serif;
+    transform: translateX(100%);
+    opacity:0;
+    transition-duration: 1s;
+    transition-delay: 2s;
+    overflow:hidden;
+    font-family: 'Cabin', sans-serif;
 }
 
 .home-info h2{min-height:66px;}
@@ -72,10 +89,11 @@ div#home-banner{
 
 @media screen and (max-width:700px){
     #home-banner-content h1{
-        font-size:40px;
+        font-size:35px;
+        padding-top:40px;
     }
     #home-banner-content p{
-        font-size:25px;
+        font-size:22px;
     }
 }
 
